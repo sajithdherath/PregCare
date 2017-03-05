@@ -10,10 +10,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.microsoft.windowsazure.mobileservices.*;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.net.MalformedURLException;
+
 public class MainActivity extends AppCompatActivity {
+
+    private MobileServiceClient mClient;
     public final String TAG = "Main";
     private Bluetooth bt;
     private  TextView status;
@@ -28,6 +33,14 @@ public class MainActivity extends AppCompatActivity {
         status = (TextView) findViewById(R.id.txtstatus);
         temp= (TextView) findViewById(R.id.temp);
         genVal();
+        try {
+            mClient = new MobileServiceClient(
+                    "https://pregcare.azurewebsites.net",
+                    this
+            );
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
     }
 
     public void genVal(){
@@ -40,9 +53,6 @@ public class MainActivity extends AppCompatActivity {
         //temp.setText(bt.getMsgTemp());
         bt = new Bluetooth(this,mHandler);
         connectService();
-
-
-
 
 }
     private final Handler mHandler = new Handler() {
