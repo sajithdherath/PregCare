@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="lk.teamiv.pregcare.SplashScreen"
-    android:background="#E74C3C">
+    android:background="@drawable/background2">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -23,20 +23,21 @@
             style="?android:attr/progressBarStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="169dp"
             android:id="@+id/progressBar"
-            android:layout_below="@+id/imageView"
-            android:layout_centerHorizontal="true" />
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="29dp" />
 
         <TextView
             android:text="Preg Care"
+            android:textColor="@color/black_overlay"
             android:textSize="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
+            android:id="@+id/textView2"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="287dp"
-            android:id="@+id/textView2" />
+            android:layout_marginBottom="176dp" />
 
         <ImageView
             app:srcCompat="@drawable/logo"
