@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@id/activity_main"
+        android:title="my account " />
+
+    <item android:id="@id/activity_main"
+        android:title="Messages" />
+
+    <item android:id="@id/activity_main"
+        android:title="Progressbar" />
+
+    <item android:id="@id/activity_main"
+        android:title="Helth circles" />
+
+    <item android:id="@id/activity_main"
+        android:title="settings" />
+
+    <item android:id="@id/activity_main"
+        android:title="logout" />
+</menu>
