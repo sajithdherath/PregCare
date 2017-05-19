@@ -3,120 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="/home/sajith/.android/build-cache/09ec790290c58e66f7b204acfee625e665758e3b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8f83a631abfdb790591a720e0cfb5f41329831c3">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_200cf32bea307a34fb35788313c3e5364ed0cd5a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/fcca5221720fa0aef86ec7acd7c072331919e9d1/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e9be366fcd6164d4511a21f6d941e7a2a737a25e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/sajith/Documents/PregCare/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="69fa091b29cc6d87936f192cf7af956f51279e0a">
+        sha1="bb68777b7b17821223683a89101969395a5e6dfd">
         <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b4e288fdb0bf4445e6e72a3289bdea457c9eeb0f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/d521d2e46d92faa1d308c333e359557f319fea05/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_881be8713709ae61c3f5b1911ca9e8c8c84aa03c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/83fd2747bd12efd681fb1663040be2615aac4d5a/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7b3eaf755284fb08a6d616a55fbb07dc3917d5e7">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d9cebea7ba52629f0c697b79306478b476cdc81e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/3b3e44ef48b7b706d08a285cc4030e8eeb42587c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0a534044236cf81b002604643d23e7ca56bd1ee0">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6bd7a66d0d116a52c1a40bde23360045b3e64544/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/bda2d5428be59a54648f4360618fdd7e62e50ffe/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5ea8620d4a4ab9258709dbd56cb0e03bdb8e44c2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/cc999eabfc18873e207394831ce9dea75e2f488d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b014b930d57a1295378bb3835b978e70ca0da000/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/20e1585b50a74aed57f71ae990a72857ca90ae9d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55c71c32b0e5bdce43792aef3198a31da3b30060/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/bf79fcb096f47aab8fe9db406679225e6653efc0/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bdda4aad0aa09ffea22c307d93db0163176cc05f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/541def7331faf612107e42c93e7a77cdf3968ca2/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2c6146ac812f91a2331355ad30d75c26e9017e2c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/f070844dd105e10954620a4ac6124091bca34c82/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1469e8b99df2d9bad30b38d99b05cef0e155d631/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/dd1027acf1a847319c9be8739dbbdde93719bc36/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3f0a85e6000998ac322ddd50750e8cf91601a84b">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5efa8b55f684700506a37c81feb5325ee9e461d3/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -126,60 +18,6 @@
         revision="25.0.0"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bde3633f94c4f420bd917de57826da5143609413/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/3e3247a4ccf8b6c94c74ae61b230cb327448ed0b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_90b0cc92badcfc6dd2a1b4f794e5064c9db78a1e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/edff97d1b3f8ceb8f891556f8d61bf583b4654e8/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="da832806828ba407284c0c4b1d87b8f9ed9f2520">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6967b9874b5dbd0a594dca5c02b9927edee55b6a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/d5fe9b10d409499e799779846ebad96c8decd8fc/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d79c575e1d97b0298746a4c032a0c1dc201c2f82">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c5012f692450ba697f60c693cf520a473eb6ab86/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/427fade32481348646587e32b4ef839ab2dd3700/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6f70aadb81cb5d8aad5572744e08663758dce800/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_b810a43475d1c6d90b2baf714fa9b6aa3263a3c9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/sajith/.android/build-cache/0dfa09c4f0461cc4642d2e4b8d3fee44322331c0/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e8f267a4af3a84bd7eadeabfb110aea752304fca/classes.dex" />
     </item>
 
 </items>
