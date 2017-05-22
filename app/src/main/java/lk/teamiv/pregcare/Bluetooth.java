@@ -475,10 +475,7 @@ public class Bluetooth {
                     String readMsg = new String(buffer, 0, bytes);
                     Log.d(TAG, "message " + readMsg);
 
-                    //setTemp.setText(readMsg);
-                    //setTextView(readMsg);
-                    //Log.d(TAG, "message string bytes " + String.valueOf(bytes));
-                    //Log.d(TAG, "message buffer " + new String(buffer));
+
                     //Send the obtained bytes to the UI Activity
                     mHandler.obtainMessage(MESSAGE_READ, bytes,
                             -1, readMsg).sendToTarget();
