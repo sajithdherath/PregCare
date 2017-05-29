@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "444099333956",
-    "firebase_url": "https://prefcare-a8971.firebaseio.com",
-    "project_id": "prefcare-a8971",
-    "storage_bucket": "prefcare-a8971.appspot.com"
+    "project_number": "303934088635",
+    "firebase_url": "https://pregcare-login-95b1a.firebaseio.com",
+    "project_id": "pregcare-login-95b1a",
+    "storage_bucket": "pregcare-login-95b1a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:444099333956:android:b231bc3bd4274366",
+        "mobilesdk_app_id": "1:303934088635:android:c3cb8069309680db",
         "android_client_info": {
-          "package_name": "lk.teamiv.pregcare"
+          "package_name": "pregcare.teamiv.lk.pregcare"
         }
       },
       "oauth_client": [
         {
-          "client_id": "444099333956-vldn9tmij58oc751ed303sib1ojcaaap.apps.googleusercontent.com",
+          "client_id": "303934088635-doa4e6ag6t5av17cb2ucg368rsmetvt1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDfcKnx4fs9j9xAN9A8SdFc-k4yII5AYQk"
+          "current_key": "AIzaSyAlpR9gyLULoitTFWqCsoCgzGXCuLJ34Zk"
         }
       ],
       "services": {
@@ -29,20 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "444099333956-2l1s0n3rh704g41vabdo3eqpj20tmd69.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "lk.teamiv.pregcare"
-              }
-            },
-            {
-              "client_id": "444099333956-vldn9tmij58oc751ed303sib1ojcaaap.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

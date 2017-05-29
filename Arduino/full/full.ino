@@ -20,6 +20,10 @@ void setup()
   Serial.begin(9600);
   // set digital pin to control as an output
   pinMode(13, OUTPUT);
+  
+  pinMode(10, INPUT); // Setup for leads off detection LO +
+  pinMode(11, INPUT); // Setup for leads off detection LO -
+  
   // set the data rate for the SoftwareSerial port
   BT.begin(9600);
   
@@ -33,33 +37,10 @@ char a; // stores incoming character from other device
 void loop(){
   
   getTemp();
-  //getGas(); 
+  getGas();
+  getEcg(); 
    }
   
-void bluetooth(){
-   if (BT.available())
-  // if text arrived in from BT serial...
-  {
-    a=(BT.read());
-    if (a=='1')
-    {
-      digitalWrite(13, HIGH);
-      BT.println("LED on");
-      //getGas();
-    }
-    if (a=='2')
-    {
-      digitalWrite(13, LOW);
-      BT.println("LED off");
-    }
-    if (a=='?')
-    {
-      BT.println("Send '1' to turn LED on");
-      BT.println("Send '2' to turn LED on");
-    }   
-    // you can add more "if" statements with other characters to add more commands
-  }
-}
 
 void getGas(){
    float sensor_volt;
@@ -101,5 +82,17 @@ void getTemp(){
   Serial.println(temp);
   
  
+}
+
+void getEcg(){
+  if((digitalRead(10) == 1)||(digitalRead(11) == 1)){
+    BT.println('!');
+  }
+  else{
+    // send the value of analog input 0:
+      BT.println(analogRead(A0));
+  }
+  //Wait for a bit to keep serial data from saturating
+  delay(1);
 }
 

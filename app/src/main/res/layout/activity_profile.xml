@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#EF5350"
+    tools:context="pregcare.teamiv.lk.pregcare.Profile">
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+
+         <TextView
+             android:layout_width="292dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:text="Welcome to your Profile"
+             android:textSize="50dp"
+             android:textColor="#000000"
+             android:id="@+id/textView" />
+
+
+
+         <Button
+             android:layout_width="260dp"
+             android:layout_height="45dp"
+             android:layout_marginTop="80dp"
+             android:layout_gravity="center_horizontal"
+             android:text="display inormation"
+             android:background="#4DD0E1"
+             android:alpha="0.8"
+             android:onClick="Show"
+             />
+
+         <Button
+             android:layout_width="260dp"
+             android:layout_height="45dp"
+             android:layout_marginTop="20dp"
+             android:layout_gravity="center_horizontal"
+             android:text="Import user details"
+             android:background="#4DD0E1"
+             android:alpha="0.8"
+             android:onClick="Import"
+             />
+
+         <Button
+             android:layout_width="260dp"
+             android:layout_height="45dp"
+             android:layout_marginTop="20dp"
+             android:layout_gravity="center_horizontal"
+             android:text="Update user details "
+             android:background="#4DD0E1"
+             android:alpha="0.8"
+             android:onClick="Update"
+             />
+
+         <Button
+             android:layout_width="150dp"
+             android:layout_height="45dp"
+             android:layout_marginTop="80dp"
+             android:layout_gravity="center_horizontal"
+             android:text="Logout"
+             android:textColor="#ffffff"
+             android:background="#303F9F"
+             android:onClick="Logout"/>
+
+     </LinearLayout>
+</RelativeLayout>
