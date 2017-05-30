@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="E:\PregCare_2\PregCare\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/home/sajith/Documents/PregCare/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="959ef9ee385febaefc63fab360f7b1eee42fa994">
-        <dex dex="E:\PregCare_2\PregCare\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_fbccc01ff323a639a53001b46aa64459f22cefb4\classes.dex" />
+        sha1="f0faeb9c36d886b316cd8561804a4d2e9aae2590">
+        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b4e288fdb0bf4445e6e72a3289bdea457c9eeb0f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\PregCare_2\PregCare\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/home/sajith/Documents/PregCare/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="E:\PregCare_2\PregCare\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e29a6828c41bcc1f73e0aff6846561da71620ce9\classes.dex" />
+        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bde3633f94c4f420bd917de57826da5143609413/classes.dex" />
     </item>
 
 </items>

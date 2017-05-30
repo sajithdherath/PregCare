@@ -13,7 +13,7 @@ public class Information extends AppCompatActivity {
     public final String TAG = "Main";
     private Bluetooth bt;
     String message;
-    TextView temp;
+    TextView temp,status;
 
 
     @Override
@@ -22,6 +22,7 @@ public class Information extends AppCompatActivity {
         setContentView(R.layout.activity_information);
 
         temp= (TextView) findViewById(R.id.temp);
+        status= (TextView) findViewById(R.id.txtstatus);
     }
 
     public void genVal(){
@@ -64,21 +65,21 @@ public class Information extends AppCompatActivity {
     };
     public void connectService(){
         try {
-            //status.setText("Connecting...");
+            status.setText("Connecting...");
             BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
             if (bluetoothAdapter.isEnabled()) {
                 bt.start();
                 bt.connectDevice("HC-05");
                 Log.d(TAG, "Btservice started - listening");
-                //status.setText("Connected");
+                status.setText("Connected");
 
             } else {
                 Log.w(TAG, "Btservice started - bluetooth is not enabled");
-                //status.setText("Bluetooth Not enabled");
+                status.setText("Bluetooth Not enabled");
             }
         } catch(Exception e){
             Log.e(TAG, "Unable to start bt ",e);
-            //status.setText("Unable to connect " +e);
+            status.setText("Unable to connect " +e);
         }
     }
 }
