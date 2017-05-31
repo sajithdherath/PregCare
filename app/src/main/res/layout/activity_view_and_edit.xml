@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#EF5350"
     tools:context="pregcare.teamiv.lk.pregcare.ViewAndEdit">
 
     <TableLayout
@@ -17,8 +18,8 @@
         android:layout_centerHorizontal="true"
         android:layout_width="600dp"
         android:layout_height="600dp"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp">
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp">
         <TableRow>
             <TextView
                 android:layout_width="300dp"
@@ -27,7 +28,7 @@
                 android:textSize="20sp"
                 android:gravity="center_horizontal"
                 android:textStyle="bold"
-                android:textColor="#685765"
+                android:textColor="#000000"
                 android:text="List Of Appointments"
                 />
         </TableRow>
@@ -54,7 +55,7 @@
         <TableRow
             android:gravity="center_horizontal">
             <Button
-                android:background="#a8b3a3"
+                android:background="#4DD0E1"
                 android:layout_width="120dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"

@@ -24,7 +24,7 @@ public class Profile extends AppCompatActivity {
         updateUser= (Button) findViewById(R.id.btnUpdate);
         appointments = (Button) findViewById(R.id.btnAppointment);
 
-        importUser.setOnClickListener(new View.OnClickListener() {
+        viewInformation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Profile.this,Information.class));
@@ -35,6 +35,13 @@ public class Profile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Profile.this,Appointment.class));
+            }
+        });
+
+        updateUser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Profile.this,Userdetails.class));
             }
         });
 

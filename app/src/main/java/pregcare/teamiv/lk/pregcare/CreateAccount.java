@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class CreateAccount extends AppCompatActivity implements View.OnClickListener {
 
     private Button buttonCreate;
-    public EditText editUsername;
+    private EditText editUsername;
     private EditText editEmail;
     private EditText editPassword;
     private ProgressDialog progressDialog;

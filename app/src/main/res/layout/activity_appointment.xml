@@ -8,72 +8,79 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#EF5350"
     tools:context="pregcare.teamiv.lk.pregcare.Appointment">
+
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        <TableRow
-            android:background="#f0f6cf">
+
+        <TableRow android:background="#DAF7A6">
+
             <CalendarView
                 android:id="@+id/CalendarView"
-                android:layout_width="fill_parent"
-                android:layout_height="310dp"
+                android:layout_width="50dp"
+                android:layout_height="300dp"
                 android:focusedMonthDateColor="@android:color/holo_red_light"
-                android:unfocusedMonthDateColor="@android:color/holo_blue_light"
                 android:minDate="12/31/2016"
-                />
+                android:unfocusedMonthDateColor="@android:color/holo_blue_light" />
         </TableRow>
+
         <TableRow>
-            <LinearLayout
-                android:layout_marginTop="20dp">
+
+            <LinearLayout android:layout_marginTop="20dp">
+
                 <Button
-                    android:background="#a8b3a3"
-                    android:layout_width="120dp"
-                    android:layout_height="60dp"
-                    android:layout_marginTop="20dp"
-                    android:text="Create Appointment"
-                    android:layout_marginRight="10dp"
                     android:id="@+id/btncreate"
-                    />
-                <Button
-                    android:background="#a8b3a3"
-                    android:layout_width="120dp"
-                    android:layout_height="60dp"
-                    android:layout_marginTop="20dp"
-                    android:text="View/Edit Appointment"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
-                    android:id="@+id/btnviewedit"
-                    />
-                <Button
-                    android:background="#a8b3a3"
-                    android:layout_width="120dp"
-                    android:layout_height="60dp"
                     android:layout_marginTop="20dp"
-                    android:text="Search Appointment"
+                    android:background="#4DD0E1"
+                    android:text="Create Appointment" />
+
+                <Button
+                    android:id="@+id/btnviewedit"
+                    android:layout_width="99dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#4DD0E1"
+                    android:text="View/Edit Appointment" />
+
+                <Button
                     android:id="@+id/btnsearch"
-                    />
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:background="#4DD0E1"
+                    android:text="Search Appointment" />
             </LinearLayout>
         </TableRow>
+
         <TableRow>
-            <LinearLayout>
+
+            <LinearLayout android:weightSum="1">
+
                 <Button
-                    android:background="#a8b3a3"
-                    android:layout_width="185dp"
-                    android:layout_height="60dp"
-                    android:layout_marginTop="20dp"
-                    android:text="Delete Appointment"
-                    android:layout_marginRight="10dp"
                     android:id="@+id/btndelete"
-                    />
-                <Button
-                    android:background="#a8b3a3"
-                    android:layout_width="185dp"
-                    android:layout_height="60dp"
-                    android:layout_marginTop="20dp"
-                    android:text="Move Appointment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0.48"
+                    android:background="#18EA47"
+                    android:text="Delete Appointment" />
+
+                <Button
                     android:id="@+id/btnmove"
-                    />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0.48"
+                    android:background="#18EA47"
+                    android:text="Move Appointment" />
             </LinearLayout>
         </TableRow>
     </TableLayout>

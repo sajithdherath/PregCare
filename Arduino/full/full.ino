@@ -37,8 +37,8 @@ char a; // stores incoming character from other device
 void loop(){
   
   getTemp();
-  getGas();
-  getEcg(); 
+  //getGas();
+  //-getEcg(); 
    }
   
 
@@ -75,7 +75,7 @@ void getTemp(){
   
   sensors.requestTemperatures();  
   temp = sensors.getTempCByIndex(0);
-  BT.print("#");
+  //BT.print("#");
   BT.println(temp); // Why "byIndex"? You can have more than one IC on the same bus. 0 refers to the first IC on the wire
   //Update value every 1 sec.
   delay(1000);

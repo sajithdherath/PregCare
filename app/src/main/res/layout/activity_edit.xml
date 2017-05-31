@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#EF5350"
     tools:context="pregcare.teamiv.lk.pregcare.CreateAppointment">
 
     <TableLayout
@@ -15,10 +16,10 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:layout_width="600dp"
-        android:layout_height="600dp"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp">
+        android:layout_width="700dp"
+        android:layout_height="700dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp">
         <TableRow
             android:gravity="center_horizontal"
             >
@@ -63,7 +64,7 @@
         <TableRow
             android:gravity="center_horizontal">
             <Button
-                android:background="#a8b3a3"
+                android:background="#4DD0E1"
                 android:layout_width="125dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"

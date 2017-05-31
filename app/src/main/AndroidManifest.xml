@@ -21,13 +21,14 @@
         <activity android:name=".ProfileSplash" />
         <activity android:name=".Profile" />
         <activity android:name=".CreateAccount" />
+        <activity android:name=".CreateAppointment" />
         <activity android:name=".Information" />
         <activity android:name=".DeleteAppointment" />
         <activity android:name=".MoveAppoCalendar" />
         <activity android:name=".MoveAppointment" />
         <activity android:name=".ViewAndEdit" />
+        <activity android:name=".Userdetails" />
         <activity android:name=".SearchAppointment" />
-        <activity android:name=".CreateAppointment" />
         <activity android:name=".Appointment"></activity>
     </application>
 

@@ -29,8 +29,8 @@ public class Information extends AppCompatActivity {
         TextView air = (TextView) findViewById(R.id.air);
         TextView ecg = (TextView) findViewById(R.id.ecg);
         //ecg.setText("Normal");
-        TextView pulse = (TextView) findViewById(R.id.pulse);
-        //pulse.setText("81");
+
+
         //temp = (TextView) findViewById(R.id.temp);
         //temp.setText(bt.getMsgTemp());
         bt = new Bluetooth(this,mHandler);

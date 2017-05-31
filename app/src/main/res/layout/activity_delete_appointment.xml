@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#EF5350"
     tools:context="pregcare.teamiv.lk.pregcare.DeleteAppointment">
 
     <TableLayout
@@ -17,13 +18,13 @@
         android:layout_centerHorizontal="true"
         android:layout_width="600dp"
         android:layout_height="600dp"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp">
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp">
         <TableRow
             android:gravity="center_horizontal">
             >
             <Button
-                android:background="#a8b3a3"
+                android:background="#4DD0E1"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:text="Delete all appointments for that date"
@@ -35,7 +36,7 @@
             android:gravity="center_horizontal">
             >
             <Button
-                android:background="#a8b3a3"
+                android:background="#4DD0E1"
                 android:layout_width="300dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="16dp"
@@ -56,7 +57,6 @@
                 <TextView
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
                     android:layout_marginTop="10dp"
                     android:textSize="20dp"
                     android:text="details"
