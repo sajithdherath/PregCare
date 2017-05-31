@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#EF5350"
+    android:background="#F9FBE7"
     tools:context="pregcare.teamiv.lk.pregcare.ViewAndEdit">
 
     <TableLayout
@@ -55,7 +55,7 @@
         <TableRow
             android:gravity="center_horizontal">
             <Button
-                android:background="#4DD0E1"
+                android:background="#81D4FA"
                 android:layout_width="120dp"
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"

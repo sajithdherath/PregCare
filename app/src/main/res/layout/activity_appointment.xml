@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#EF5350"
+    android:background="#F9FBE7"
     tools:context="pregcare.teamiv.lk.pregcare.Appointment">
 
     <TableLayout
@@ -36,7 +36,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:background="#4DD0E1"
+                    android:background="#2E7D32"
                     android:text="Create Appointment" />
 
                 <Button
@@ -45,7 +45,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
-                    android:background="#4DD0E1"
+                    android:background="#2E7D32"
                     android:text="View/Edit Appointment" />
 
                 <Button
@@ -53,7 +53,7 @@
                     android:layout_width="108dp"
                     android:layout_height="match_parent"
                     android:layout_marginTop="20dp"
-                    android:background="#4DD0E1"
+                    android:background="#2E7D32"
                     android:text="Search Appointment" />
             </LinearLayout>
         </TableRow>
@@ -69,7 +69,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_weight="0.48"
-                    android:background="#18EA47"
+                    android:background="#2E7D32"
                     android:text="Delete Appointment" />
 
                 <Button
@@ -79,7 +79,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_weight="0.48"
-                    android:background="#18EA47"
+                    android:background="#2E7D32"
                     android:text="Move Appointment" />
             </LinearLayout>
         </TableRow>

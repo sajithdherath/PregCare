@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#EF5350"
+    android:background="#F9FBE7"
     tools:context="pregcare.teamiv.lk.pregcare.CreateAppointment">
 
     <TableLayout

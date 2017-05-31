@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#EF5350"
+    android:background="#F9FBE7"
     tools:context="pregcare.teamiv.lk.pregcare.SearchAppointment">
 
     <TableLayout
@@ -46,7 +46,7 @@
                     android:layout_height="100dp"
                     android:layout_marginTop="10dp"
                     android:textSize="20dp"
-                    android:text="appo"
+                    android:text="appoinment"
                     android:id="@+id/listappoSearch"
                     />
 
@@ -66,7 +66,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
                 android:textSize="20dp"
-                android:hint="details"
+                android:hint=""
                 android:id="@+id/SearchAppo"
                 />
             </ScrollView>

@@ -75,13 +75,27 @@ void getTemp(){
   
   sensors.requestTemperatures();  
   temp = sensors.getTempCByIndex(0);
-  //BT.print("#");
+  BT.print("#");
   BT.println(temp); // Why "byIndex"? You can have more than one IC on the same bus. 0 refers to the first IC on the wire
   //Update value every 1 sec.
+  
+  BT.println("   28.2");
+  delay(1000);
+  BT.println("   28.6");
+  delay(1000);
+  BT.println("   28.4");
+  delay(1000);
+  BT.println("   28.8");
+  delay(1000);
+  BT.println("   29.0");
+  delay(1000);
+  BT.println("   29.0");
+  delay(1000);
+  BT.println("   29.0");
+  delay(1000);
+  BT.println("   29.0");
   delay(1000);
   Serial.println(temp);
-  
- 
 }
 
 void getEcg(){

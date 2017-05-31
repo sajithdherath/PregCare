@@ -20,7 +20,7 @@ public class Profile extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
         viewInformation= (Button) findViewById(R.id.btnInfo);
-        importUser = (Button) findViewById(R.id.btnImport);
+
         updateUser= (Button) findViewById(R.id.btnUpdate);
         appointments = (Button) findViewById(R.id.btnAppointment);
 

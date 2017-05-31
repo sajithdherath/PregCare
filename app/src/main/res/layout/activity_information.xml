@@ -10,7 +10,7 @@ android:paddingLeft="@dimen/activity_horizontal_margin"
 android:paddingRight="@dimen/activity_horizontal_margin"
 android:paddingTop="@dimen/activity_vertical_margin"
 tools:context="pregcare.teamiv.lk.pregcare.Information"
-android:background="#E74C3C">
+android:background="#F9FBE7">
 
 
 
@@ -28,28 +28,29 @@ android:background="#E74C3C">
         android:layout_marginTop="50dp">
 
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:orientation="horizontal">
 
             <TextView
-                android:text="Inhale Air Status"
-                android:layout_width="128dp"
-                android:layout_height="wrap_content"
                 android:id="@+id/textView11"
-                android:layout_weight="1"
-                android:textSize="24sp"
-                android:textStyle="normal|bold"
-                android:textColor="@android:color/white" />
-
-            <TextView
                 android:layout_width="128dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/air"
                 android:layout_weight="1"
-                android:layout_marginLeft="128dp"
+                android:text="Inhale Air Status"
+                android:textColor="#424242"
                 android:textSize="24sp"
-                android:textColor="@android:color/white"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/air"
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="128dp"
+                android:layout_weight="1"
+                android:textColor="#424242"
+                android:textSize="24sp"
                 android:textStyle="normal|bold" />
         </LinearLayout>
 
@@ -67,7 +68,7 @@ android:background="#E74C3C">
                 android:layout_weight="1"
                 android:textSize="24sp"
                 android:textStyle="normal|bold"
-                android:textColor="@android:color/white" />
+                android:textColor="#424242" />
 
             <TextView
                 android:layout_width="128dp"
@@ -76,35 +77,35 @@ android:background="#E74C3C">
                 android:layout_weight="1"
                 android:layout_marginLeft="128dp"
                 android:textSize="24sp"
-                android:textColor="@android:color/white"
+                android:textColor="#424242"
                 android:textStyle="normal|bold" />
         </LinearLayout>
 
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="90dp"
+            android:orientation="horizontal">
 
             <TextView
-                android:text="Body Temperature"
-                android:layout_height="wrap_content"
                 android:id="@+id/bodytemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_weight="0.03"
+                android:text="Body Temperature"
+                android:textColor="#424242"
                 android:textSize="24sp"
-                android:textStyle="normal|bold"
-                android:textColor="@android:color/white"
-                android:layout_width="wrap_content" />
+                android:textStyle="normal|bold" />
 
             <TextView
-                android:layout_height="wrap_content"
                 android:id="@+id/temp"
-
-                android:textSize="18sp"
-                android:textColor="@android:color/white"
-                android:textStyle="normal|bold"
                 android:layout_width="96dp"
-                android:layout_weight="0.05" />
+
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:textColor="#424242"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
         </LinearLayout>
 
         <!--<TextView

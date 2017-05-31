@@ -3,21 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="/home/sajith/Documents/PregCare/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\Users\Sajith Deshappriya\Documents\SDGP\PregCare\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="83c22efb5b596a062f4cc915233ff6e0b5ce8718">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b4e288fdb0bf4445e6e72a3289bdea457c9eeb0f/classes.dex" />
+        sha1="c1507999474fd62308b09942ea400321e243dda5">
+        <dex dex="C:\Users\Sajith Deshappriya\Documents\SDGP\PregCare\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f775aa0cd09bee4f2ac16a5e831c85d0e6aee890\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/sajith/Documents/PregCare/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Users\Sajith Deshappriya\.android\build-cache\f46238af202bb5acceaaa903da6d710a9bdcefeb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Sajith Deshappriya\Documents\SDGP\PregCare\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9258acc8ad14ddcae3c43af6cb5aae72e531ebef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sajith Deshappriya\Documents\SDGP\PregCare\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="/home/sajith/Documents/PregCare/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bde3633f94c4f420bd917de57826da5143609413/classes.dex" />
+        <dex dex="C:\Users\Sajith Deshappriya\Documents\SDGP\PregCare\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4a156de387c23577464e3de69629e20c15614bd2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Sajith Deshappriya\Documents\SDGP\PregCare\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_3c9f5880fec0a880f40ecbbebb3a60ccb1f35afa\classes.dex" />
     </item>
 
 </items>
