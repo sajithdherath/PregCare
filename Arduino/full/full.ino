@@ -18,8 +18,6 @@ void setup()
 {
   
   Serial.begin(9600);
-  // set digital pin to control as an output
-  pinMode(13, OUTPUT);
   
   pinMode(10, INPUT); // Setup for leads off detection LO +
   pinMode(11, INPUT); // Setup for leads off detection LO -
@@ -27,18 +25,17 @@ void setup()
   // set the data rate for the SoftwareSerial port
   BT.begin(9600);
   
-  
   //pinMode(sensorPin, INPUT);//the smoke sensor will be an input to the arduino
   //pinMode(buzzerPin, OUTPUT);//the buzzer serves an output in the circuit
   sensors.begin();//begin temperature sensor
 }
-char a; // stores incoming character from other device
+
 
 void loop(){
   
   getTemp();
-  //getGas();
-  //-getEcg(); 
+  getGas();
+  getEcg(); 
    }
   
 
@@ -78,22 +75,7 @@ void getTemp(){
   BT.print("#");
   BT.println(temp); // Why "byIndex"? You can have more than one IC on the same bus. 0 refers to the first IC on the wire
   //Update value every 1 sec.
-  
-  BT.println("   28.2");
-  delay(1000);
-  BT.println("   28.6");
-  delay(1000);
-  BT.println("   28.4");
-  delay(1000);
-  BT.println("   28.8");
-  delay(1000);
-  BT.println("   29.0");
-  delay(1000);
-  BT.println("   29.0");
-  delay(1000);
-  BT.println("   29.0");
-  delay(1000);
-  BT.println("   29.0");
+   
   delay(1000);
   Serial.println(temp);
 }

@@ -1,12 +1,16 @@
 package pregcare.teamiv.lk.pregcare;
 
 import android.bluetooth.BluetoothAdapter;
+import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class Information extends AppCompatActivity {
 
@@ -32,6 +36,7 @@ public class Information extends AppCompatActivity {
         bt = new Bluetooth(this,mHandler);
         connectService();
 
+
     }
 
     private final Handler mHandler = new Handler() {
@@ -48,9 +53,10 @@ public class Information extends AppCompatActivity {
                     Log.d(TAG, "MESSAGE_READ ");
                     //Extract the string from the Message
                     message = (String) msg.obj;
-                    temp.setText(message+"\u00b0"+"C");
-                    air.setText("Normal");
-                    ecg.setText("Normal");
+                    String[] seperator=message.split(",");
+                    temp.setText(seperator[0]+"\u00b0"+"C");
+                    ecg.setText(seperator[1]);
+                    air.setText(seperator[2]);
                     break;
                 case Bluetooth.MESSAGE_DEVICE_NAME:
                     Log.d(TAG, "MESSAGE_DEVICE_NAME "+msg);
